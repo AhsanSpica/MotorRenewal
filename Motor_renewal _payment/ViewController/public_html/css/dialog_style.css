@@ -1,0 +1,64 @@
+.ui-dialog {
+	top: 4em;
+	left: 4em;
+	padding: .2em;
+    border:1px;
+    
+}
+.ui-dialog .ui-dialog-titlebar {
+    border:1px;
+    display: none;
+}
+.ui-dialog .ui-dialog-content {
+	border: 0;
+	padding: 20px;
+   /* font-size:18px;*/
+   /* color:#CAAD75;*/
+ /*   background-color: #FDF8E4;*/
+	overflow: auto;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background-image: none;
+	margin-top: .5em;
+	padding: .3em 1em .5em .4em;
+    background-color: #E3F1CF;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+    
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+    
+}
+.ui-dialog .ui-resizable-se {
+	width: 12px;
+	height: 12px;
+	right: -5px;
+	bottom: -5px;
+	background-position: 16px 16px;
+    
+}
+.ui-draggable-handle {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .yescls
+{
+    font-size:15px;
+    color: #FFFFFF;
+    width: 150px;
+    background: #90C93E;
+    
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .cancelcls
+{
+    font-size:15px;
+    color: #FFFFFF;
+    width: 150px;
+    background: #F86379;
+    
+}

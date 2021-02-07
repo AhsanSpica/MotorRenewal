@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></meta>
+    <title>ANGULAR-TEST</title>
+     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+  </head>
+  <body>
+  <script>
+  angular.module('windowExample', [])
+    .controller('ExampleController', ['$scope', '$window', function($scope, $window) {
+      $scope.greeting = 'Hello, World!';
+      $scope.doGreeting = function(greeting) {
+        $window.alert(greeting);
+      };
+    }]);
+</script>
+<div ng-controller="ExampleController">
+  <input type="text" ng-model="greeting" aria-label="greeting" />
+  <button ng-click="doGreeting(greeting)">ALERT</button>
+</div>
+  
+  
+  
+  </body>
+</html>
